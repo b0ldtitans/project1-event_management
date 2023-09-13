@@ -1,0 +1,997 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "eventName": "Neckdeep Live in Australia & Asia - JAKARTA",
+      "eventId": "1",
+      "category": "music",
+      "description": "Neckdeep Live in Australia & Asia - JAKARTA",
+      "date": [
+        "16 September 2023"
+      ],
+      "time": "20:00 - 22:00 GMT+7",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Mahaka Square",
+      "ticketPrice": 650000,
+      "maxAttendees": 1000,
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230714014753.png",
+      "organizer_id": 1
+    },
+    {
+      "id": 2,
+      "eventName": "Premium Webinar Strategi Kaya Dari Affiliate Marketing dengan Funnel",
+      "eventId": "18",
+      "category": "workshop",
+      "description": "Apakah Anda Bisa Melihat Perubahan yang Terjadi Sekarang Ini Di Sekitar Anda? Banyak sekali bisnis - bisnis yang mulai tumbang dan PHK yang semakin menakutkan. Semoga hal ini tidak terjadi dengan Anda. Namun tetap saja Anda harus punya persiapan Apa yang sudah Anda persiapkan untuk menghadapi semua ini?",
+      "date": [
+        "30 September 2023"
+      ],
+      "time": "14:00 - 15:30 WIB",
+      "location": "Online Event",
+      "venue": "Zoom Meeting",
+      "ticketPrice": "Free",
+      "maxAttendees": "250",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230827205906_64eb56aaed41f.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 3,
+      "eventName": "JOYLAND JAKARTA 2023",
+      "eventId": "3",
+      "category": "music",
+      "description": "",
+      "date": [
+        "26 September 2023"
+      ],
+      "time": "15:00 - 23:00",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "GBK Sports Complex, Jakarta Pusat",
+      "ticketPrice": 880000,
+      "maxAttendees": "1000",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230604123900.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 4,
+      "eventName": "PESTAPORA 2023",
+      "eventId": "4",
+      "category": "music",
+      "description": "Pestapora adalah selebrasi pertunjukan musik Indonesia, yang diselenggarakan oleh Boss Creator. Perayaan musik ini akan hadir selama tiga hari, pada tanggal 22, 23, dan 24 September 2023.",
+      "date": [
+        "22-10-2023",
+        "23-10-2023",
+        "24-10-2023"
+      ],
+      "time": "12:00 - 22:00 GMT+7",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Gambir Expo, Kemayoran Jakarta",
+      "ticketPrice": 600000,
+      "maxAttendees": "1000",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230814064640.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 5,
+      "eventName": "Mahalini Fabula 2.0 Live in Concert",
+      "eventId": "5",
+      "category": "music",
+      "description": "Konser tunggal Mahalini yang bertajuk Fabula 2.0 ini, akan di selenggarakan di Basket Hall Senayan - GBK, dengan mengusung konsep orchestra. Dikenal sebagai penyanyi sekaligus pencipta lagu, tentu saja Mahalini tidak melewatkan kesempatan konser kali ini dengan mengundang nama nama besar untuk menjadi special guest pada Fabula 2.0 nanti.",
+      "date": [
+        "14 Oktober 2023"
+      ],
+      "time": "19:00 - 21:00 GMT+7",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Basket Hall Senayan - Jakarta Pusat",
+      "ticketPrice": 850000,
+      "maxAttendees": "1000",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230712092149.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 6,
+      "eventName": "ISYANA The 4th Album Showcase",
+      "eventId": "6",
+      "category": "music",
+      "description": "The long awaited fourth studio album, self-titled ISYANA is an extension of the latest EP, a turning and burning point of her life. Despite the perplexing journey, she remains true, vulnerable, and honest in her stories. Isyana Sarasvati converse through classical rock, electronic tunes, and distortions of melodies. A roller coaster of emotion through an evolution of virtuous sounds. This intimate showcase of ISYANA, which integrates a mind-blowing stage act with stunning visuals and lighting, is an opportunity that cannot be missed. All of this will be brought closer to you in July and August.",
+      "date": [
+        "30 September 2023"
+      ],
+      "time": "17:00 - 21:00 GMT+7",
+      "location": "Makassar, Sulawesi Selatan",
+      "venue": "Aula Politeknik Pariwisata Makassar, Sulawesi Selatan",
+      "ticketPrice": 550000,
+      "maxAttendees": "1000",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230813195415_64d8d27752310.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 7,
+      "eventName": "Power of Words 2023 - Public Speaking Workshop",
+      "eventId": "7",
+      "category": "workshop",
+      "description": "Pendaftaran: https://bit.ly/PoW2023 Detail Schedule: https://bit.ly/PoW2023_Schedule",
+      "date": [
+        "10 September 2023"
+      ],
+      "time": "18:00 - 21:00 GMT+7",
+      "location": "Jakarta, DKI Jakarta",
+      "venue": "Wall Street Kelapa Gading",
+      "ticketPrice": 250000,
+      "maxAttendees": "50",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230728133300_64c3611caa148.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 8,
+      "eventName": "2023 ASIA FAN MEETING IN JAKARTA: KIMBUM (Between U and Me)",
+      "eventId": "8",
+      "category": "other",
+      "description": "Viu Scream Dates is an annual Viu festival event in Indonesia, bringing the Viu experience to live to our millions of Viu’ers in Indonesia. The initial Viu Scream Dates was done in Bangkok, Thailand, in 2019 and was attended by thousands of Viu’ers. The Viu Scream Dates 2023 will be the first Viu Scream Dates in Indonesia, where we will create the excitement by bringing the most favorite Korean, Thailand, Mandarin, & Indonesia celebrties to life through music concerts, meet & greets, photo signings, talk-shows, screenings, and fun games. On the 3rd of September Viu Scream Dates will bring the star of Boys Before Flower, Ghost Doctor, and Tale of The Nine Tailed, Kim Bum for his 2023 ASIAN FAN MEET TOUR in Jakarta: Between U and Me - To Create Memorable Memories.",
+      "date": [
+        "3 September 2023"
+      ],
+      "time": "19:00 - 22:00 GMT+7",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Grand Ballroom - Kempinski Hotel, DKI Jakarta",
+      "ticketPrice": 500000,
+      "maxAttendees": "200",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230823110754.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 9,
+      "eventName": "Marketeers Hangout 2023",
+      "eventId": "9",
+      "category": "workshop",
+      "description": "Sedang pusing mencari ide-ide marketing? Kampanye marketing anda terasa garing? Stop overthinking. Luangkan waktu anda sejenak dan mari berkumpul di Marketeers Hangout, tempatnya orang-orang marketing yang kreatif. Ini ajang untuk saling berbagi inspirasi, solusi kreatif, dan jejaring baru. Marketeers Hangout menyuguhkan topik-topik pilihan seputar marketing, dari brand storytelling, social media marketing, influencer marketing, marketing to Gen Z, content marketing, hingga multisensory marketing. Topik-topik ini dibawakan oleh para pembicara pilihan yang cakap di bidangnya. Berbeda dengan event-event lainnya, Marketeers Hangout hadir dalam kemasan teatrikal. Dengan kemasan ini, anda bisa menyimak paparan pembicara secara lebih menyenangkan dan menghibur seperti saat menonton pertunjukan teater.",
+      "date": [
+        "18-09-2023"
+      ],
+      "time": "09:30 - 17:00 GMT+7",
+      "location": "Jakarta Selatan, DKI Jakarta",
+      "venue": "Ciputra Artpreneur Theater, DKI Jakarta",
+      "ticketPrice": 550000,
+      "maxAttendees": "300",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230815164553_64db4951e22a7.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 10,
+      "eventName": "Teknis Jualan Foto dan Footage dari Approved Sampai Sold di Shutterstock",
+      "eventId": "10",
+      "category": "workshop",
+      "description": "Side hustle dengan menjual aset digital seperti foto, video, vektor, atau audio merupakan gig ekonomi yang sangat menguntungkan. Jenis aset tersebut dapat menghasilkan uang melalui situs Microstock seperti di Shutterstock. Apalagi kalau hasilnya bisa sama dengan pendapatan kamu sekarang. Namun untuk memulainya susah bukan ? Nah untuk itu makanya ada Shutterclass yang merupakan kelas untuk kamu yang ingin mulai atau mengalami kesulitan. Kelas ini akan diadakan pada  8 September 2023 pukul 19.00 WIB – 21.00 WIB (Bonus Extra Waktu kalau banyak yang tanya). Topik kelas bulan Juni adalah 'Teknis Jualan Foto dan Footage dari Approved Sampai Sold di Shutterstock' dan sesi diskusi topik seputar Shutterstock. Topik ini sangat sesuai buat kamu yang ingin serius dalam berjualan aset digital karena ini sangat esensial untuk meningkatkan peluang pendapatan dan mengurangi resiko kerugian. ",
+      "date": [
+        "08 September 2023"
+      ],
+      "time": "19:00 - 21:00 GMT+7",
+      "location": "Online Event",
+      "venue": "Zoom Meeting",
+      "ticketPrice": 75000,
+      "maxAttendees": "250",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230810223038_64d5029ebcb27.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 11,
+      "eventName": "Becoming a Behavioural Detective: Understanding and Supporting Complex Behaviour",
+      "eventId": "11",
+      "category": "workshop",
+      "description": "Pada kesempatan kali ini, Klinik Rainbow Castle akan mengadakan workshop selama 3 hari bersama Kim Barthel, OTR/L, C/NDT",
+      "date": [
+        "12-11-2023"
+      ],
+      "time": "08:30 - 16:30 GMT+7",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Hotel Sofyan, Cikini, Jakarta Pusat",
+      "ticketPrice": 3500000,
+      "maxAttendees": "200",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230813115254_64d861a67ab8f.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 12,
+      "eventName": "Sisterfillah Fest",
+      "eventId": "12",
+      "category": "festival",
+      "description": "Sisterfillah Fest adalah Event Komunitas Sisterfillah Bandung Timur yang acaranya terdiri dari penyerahan santunan untuk anak-anak yatim dan dhuafa, perlombaan anak-anak, Cooking Class, festival kajian yang akan di isi oleh beberapa pengisi diantaranya: Ustadz R Kusumananda Mega (Putra Alm Kang Ibing), Teh Ghaida Tsurayya, dan Teh Desi Indrawati dan juga akan di meriahkan oleh Special Perfomance dari Grup Nasyid Bandung Timur yaitu Hipma Voice.",
+      "date": [
+        "16 September 2023"
+      ],
+      "time": "08:00 - 21:30 GMT+7",
+      "location": "Bandung, Jawa Barat",
+      "venue": "Halaman Masjid Al Hikmah Kaum Kidul, Jawa Barat",
+      "ticketPrice": "Free",
+      "maxAttendees": "1000",
+      "poster": "https://loket-production-sg.s3.ap-southeast-1.amazonaws.com/images/temporary/20230829/1693288635_w4mxUV.jpg?eyJpdiI6IlwvZFlzbGhEakRMaTJmY3lwM1o4QmVRPT0iLCJ2YWx1ZSI6ImJmY0c0bTU1NnlUaGhmMUxPMkRUTzlWZE5QeVNCNlp2aGNOMUN5RTNhb2w1SnRpZEQ2eUI3eUZBdzNlQlZpWlpBRlNNVExTVUFBZncwWEJlQ2pRd09qOWFhaFNQdkdkcVdnMHI4Uk5Cc3hsNFwvZW4rN2ZLVCtyOW5KOUdPRE4rWmJ0RG9WaU9LWk9kcUx1YWdEb0pXNnc9PSIsIm1hYyI6IjhiYTdhYWZjYzQzZjFhZDc3ZmZjOGE4YTVjMDg1YThiZWNjMTYxZjJkMDAwYzE4YzZjNmU4NjRkOWFkZjJlOTQifQ==",
+      "organizer_id": 2
+    },
+    {
+      "id": 13,
+      "eventName": "Death Resonance 2023",
+      "eventId": "13",
+      "category": "music",
+      "description": "Heretic Deadly Merch & Garudha Records presents Death Resonance. Live at IFI Bandung.",
+      "date": [
+        "10 September 2023"
+      ],
+      "time": "16:00 - 22:30 GMT+7",
+      "location": "Bandung, Jawa Barat",
+      "venue": "IFI Bandung, Jawa Barat",
+      "ticketPrice": 75000,
+      "maxAttendees": "500",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230807160812_64d0b47c608e3.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 14,
+      "eventName": "LIGA KOPI BALI 2023/24 (ILAC & ICTC)",
+      "eventId": "14",
+      "category": "kompetisi",
+      "description": "LIGA KOPI BALI 2023/24 adalah bagian dari program ICC League oleh SCAI. Penyelenggara yang ditunjuk oleh SCAI adalah Poros Kopi. Kompetisi yang diadakan di LIGA KOPI BALI 2023/24 adalah Indonesia Latte Art Championship dan Indonesia Cup Tasters Championship",
+      "date": [
+        "09 September 2023"
+      ],
+      "time": "09:00 - 16:00 WITA",
+      "location": "Nusa Dua, Bali",
+      "venue": "Bali Nusa Dua Convention Center, Bali",
+      "ticketPrice": 50000,
+      "maxAttendees": "200",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230809072821_64d2dda5b3368.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 15,
+      "eventName": "LATTE ART JUDGE WORKSHOP - LIGA KOPI BALI",
+      "eventId": "15",
+      "category": "workshop",
+      "description": "Workshop ini diperuntukkan bagi siapa pun yang ingin mengenali lebih jauh tugas dan peran seorang juri kompetisi latte art berdasarkan standar World Latte Art Championship. Dipandu oleh certified judge yang ditunjuk oleh Asosiasi Kopi Spesial Indonesia/Specialty Coffee Association of Indonesia (AKSI-SCAI), peserta workshop mendapatkan pembekalan mengenai etika juri, pemahaman peraturan kompetisi, dan cara memberikan penilaian terhadap peserta kompetisi. Peserta workshop juga akan diajak melakukan penilaian dalam sebuah simulasi kompetisi yang serupa dengan kompetisi sesungguhnya. Peserta workshop bisa mendapatkan kesempatan untuk menjadi juri di kompetisi latte art Liga Kopi Bali apabila dianggap cakap dan mampu oleh instruktur.",
+      "date": [
+        "07 September 2023"
+      ],
+      "time": "10:00 - 17:00 WITA",
+      "location": "Nusa Dua, Bali",
+      "venue": "Bali Nusa Dua Convention Center, Bali",
+      "ticketPrice": 350000,
+      "maxAttendees": "400",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230827221357_64eb683516a77.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 16,
+      "eventName": "Indonesia Marketing Festival 2023 - BALI NUSRA",
+      "eventId": "16",
+      "category": "festival",
+      "description": "The HOTTEST MARKETING FESTIVAL is BACK! AGUSTUS 2023 hadir di 7 KOTA UTAMA Indonesia The 11th Indonesia Marketing Festival ENTREPRENEURIAL MARKETING : Winning The Post-Normal Era Dapatkan strategi jitu untuk memenangkan persaingan di Post Normal Era dengan menggabungkan konsep CI-EL : Creativity, Innovation, Entrepreneurship, Leadership & PI-PM : Productivity, Improvement, Professionalism, Management",
+      "date": [
+        "29 Oktober 2023"
+      ],
+      "time": "09:00 - 17:00 WITA",
+      "location": "Kabupaten Badung, Bali",
+      "venue": "HARRIS Hotel & Residences Sunset Road - Bali, Bali",
+      "ticketPrice": 750000,
+      "maxAttendees": "500",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230714154605_64b10b4d9c9f7.jpg",
+      "organizer_id": 2
+    },
+    {
+      "id": 17,
+      "eventName": "EXCLUSIVE Webinar Rahasia AI Tingkatkan Profit Bisnis 10X",
+      "eventId": "17",
+      "category": "workshop",
+      "description": "Temukan Peluang Raksasa A.I. & RAHASIA Tingkatkan PROFIT Anda Lebih CEPAT & Lebih MUDAH Dari yang Pernah Anda Bayangkan Ancaman RAKSASA Sedang Melanda Semua Profesi & Industri, Apakah Anda Siap? Belum Pernah ada Webinar yang akan Melengkapi Anda dengan Cara CEPAT & MUDAH Untuk Menangkap Peluang Raksasa A.I. dengan Strategi yang Paling Sederhana",
+      "date": [
+        "28 September 2023"
+      ],
+      "time": "20:00-21:30 WIBB",
+      "location": "Online Event",
+      "venue": "Zoom Meeting",
+      "ticketPrice": "Free",
+      "maxAttendees": "250",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230827200939_64eb4b13d6646.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 18,
+      "eventName": "Neckdeep Live in Australia & Asia - SURABAYA",
+      "eventId": "2",
+      "category": "music",
+      "description": "Neckdeep Live in Australia & Asia - SURABAYA",
+      "date": [
+        "15 September 2023"
+      ],
+      "time": "20:00 - 22:00 GMT+7",
+      "location": "Surabaya, Jawa Timur",
+      "venue": "Grand City Convention Hall, Jawa Timur",
+      "ticketPrice": 450000,
+      "maxAttendees": "1000",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230714010120.png",
+      "organizer_id": 2
+    },
+    {
+      "id": 19,
+      "eventName": "Ilmu Hitam (Stand Up Comedy Special Show by Arie Kriting)",
+      "eventId": "19",
+      "category": "pertunjukan",
+      "description": "Setelah 10 tahun menggeluti dunia stand up comedy, akhirnya Arie Kriting membuat special show-nya sendiri. ILMU HITAM bermakna orang ‘hitam’ yang memiliki ilmu. Tidak mengenal ras, agama, warna kulit, dan apapun, seseorang punya kesempatan untuk berwawasan tinggi.  Arie Kriting juga ingin menyampaikan fitnah ‘ilmu hitam’ akan selalu melekat pada dirinya namun ia harus berdamai dengan itu dan menjadikannya motivasi untuk menjadi lebih baik. ",
+      "date": [
+        "16 September 2023"
+      ],
+      "time": "19:30 - 21:30 WIB",
+      "location": "Jakarta Pusat, DKI Jakarta",
+      "venue": "Graha Bhakti Budaya - TIM, DKI Jakarta",
+      "ticketPrice": 250000,
+      "maxAttendees": "200",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230725112031_64bf4d8f53377.jpg",
+      "organizer_id": 1
+    },
+    {
+      "id": 20,
+      "eventName": "CERITA SEBELKU oleh Raditya Dika - DEPOK",
+      "eventId": "20",
+      "category": "pertunjukan",
+      "description": "Cerita Sebelku adalah pertunjukan standup comedy oleh Raditya Dika dilanjutkan dengan interaksi bersama penonton.",
+      "date": [
+        "09 Oktober 2023"
+      ],
+      "time": "13:30 - 21:30 WIB",
+      "location": "Depok, Jawa Barat",
+      "venue": "MAKARA ART CENTER - UI, DEPOK, Jawa Barat",
+      "ticketPrice": 250000,
+      "maxAttendees": "200",
+      "poster": "https://s3-ap-southeast-1.amazonaws.com/loket-production-sg/images/banner/20230726080642.jpeg",
+      "organizer_id": 2
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Budi Santoso",
+      "username": "budisan",
+      "email": "budisan@gmail.com",
+      "phone": "081234567890",
+      "age": 28,
+      "gender": "male",
+      "address": "Jl. Sudirman No. 123, Jakarta",
+      "points": 170
+    },
+    {
+      "id": 2,
+      "name": "Siti Rahmawati",
+      "username": "sitirah",
+      "email": "sitirah@yahoo.com",
+      "phone": "082345678901",
+      "age": 35,
+      "gender": "female",
+      "address": "Jl. Ahmad Yani No. 456, Bandung",
+      "points": 170
+    },
+    {
+      "id": 3,
+      "name": "Agus Setiawan",
+      "username": "agusset",
+      "email": "agussetiawan@hotmail.com",
+      "phone": "083456789012",
+      "age": 22,
+      "gender": "male",
+      "address": "Jl. Gajah Mada No. 789, Surabaya",
+      "points": 0
+    },
+    {
+      "id": 4,
+      "name": "Dewi Kusuma",
+      "username": "dewikus",
+      "email": "dewikusuma@gmail.com",
+      "phone": "084567890123",
+      "age": 31,
+      "gender": "female",
+      "address": "Jl. Diponegoro No. 234, Yogyakarta",
+      "points": 0
+    },
+    {
+      "id": 5,
+      "name": "Rudi Hartono",
+      "username": "rudihart",
+      "email": "rudihartono@yahoo.com",
+      "phone": "085678901234",
+      "age": 27,
+      "gender": "male",
+      "address": "Jl. Pahlawan No. 567, Semarang",
+      "points": 0
+    },
+    {
+      "id": 6,
+      "name": "Ani Wijayanti",
+      "username": "aniwij",
+      "email": "aniwijayanti@hotmail.com",
+      "phone": "086789012345",
+      "age": 29,
+      "gender": "female",
+      "address": "Jl. Merdeka No. 678, Medan",
+      "points": 0
+    },
+    {
+      "id": 7,
+      "name": "Hadi Prasetyo",
+      "username": "hadipra",
+      "email": "hadiprasetyo@gmail.com",
+      "phone": "087890123456",
+      "age": 33,
+      "gender": "male",
+      "address": "Jl. Asia Afrika No. 789, Bandung",
+      "points": 0
+    },
+    {
+      "id": 8,
+      "name": "Rina Sari",
+      "username": "rinasar",
+      "email": "rinasari@yahoo.com",
+      "phone": "088901234567",
+      "age": 26,
+      "gender": "female",
+      "address": "Jl. Ganesha No. 890, Bandung",
+      "points": 0
+    },
+    {
+      "id": 9,
+      "name": "Joko Susilo",
+      "username": "jokosus",
+      "email": "jokosusilo@hotmail.com",
+      "phone": "089012345678",
+      "age": 30,
+      "gender": "male",
+      "address": "Jl. Dipatiukur No. 901, Bandung",
+      "points": 0
+    },
+    {
+      "id": 10,
+      "name": "Diana Fitri",
+      "username": "dianafit",
+      "email": "dianafitri@gmail.com",
+      "phone": "080123456789",
+      "age": 25,
+      "gender": "female",
+      "address": "Jl. Cikutra No. 1234, Bandung",
+      "points": 0
+    },
+    {
+      "id": 11,
+      "name": "Andi Kurniawan",
+      "username": "andikur",
+      "email": "andikurniawan@yahoo.com",
+      "phone": "081234567890",
+      "age": 32,
+      "gender": "male",
+      "address": "Jl. Asia Afrika No. 234, Bandung",
+      "points": 0
+    },
+    {
+      "id": 12,
+      "name": "Sari Indah",
+      "username": "sariind",
+      "email": "sariindah@hotmail.com",
+      "phone": "082345678901",
+      "age": 28,
+      "gender": "female",
+      "address": "Jl. Cihampelas No. 345, Bandung",
+      "points": 0
+    },
+    {
+      "id": 13,
+      "name": "Bambang Sutanto",
+      "username": "bambangsut",
+      "email": "bambangsutanto@gmail.com",
+      "phone": "083456789012",
+      "age": 34,
+      "gender": "male",
+      "address": "Jl. Pajajaran No. 456, Bogor",
+      "points": 0
+    },
+    {
+      "id": 14,
+      "name": "Ratna Dewi",
+      "username": "ratnadew",
+      "email": "ratnadewi@yahoo.com",
+      "phone": "084567890123",
+      "age": 27,
+      "gender": "female",
+      "address": "Jl. Siliwangi No. 567, Bandung",
+      "points": 0
+    },
+    {
+      "id": 15,
+      "name": "Eko Prasetyo",
+      "username": "ekopra",
+      "email": "ekoprasetyo@hotmail.com",
+      "phone": "085678901234",
+      "age": 29,
+      "gender": "male",
+      "address": "Jl. Cipaganti No. 678, Bandung",
+      "points": 0
+    },
+    {
+      "id": 16,
+      "name": "Dewi Susanti",
+      "username": "dewisus",
+      "email": "dewisusanti@gmail.com",
+      "phone": "086789012345",
+      "age": 26,
+      "gender": "female",
+      "address": "Jl. Cikapayang No. 789, Bandung",
+      "points": 0
+    },
+    {
+      "id": 17,
+      "name": "Hendra Kusuma",
+      "username": "hendraku",
+      "email": "hendrakusuma@yahoo.com",
+      "phone": "087890123456",
+      "age": 31,
+      "gender": "male",
+      "address": "Jl. Cikutra No. 890, Bandung",
+      "points": 0
+    },
+    {
+      "id": 18,
+      "name": "Siti Nurhayati",
+      "username": "sitinur",
+      "email": "sitinurhayati@hotmail.com",
+      "phone": "088901234567",
+      "age": 28,
+      "gender": "female",
+      "address": "Jl. Cihampelas No. 901, Bandung",
+      "points": 0
+    },
+    {
+      "id": 19,
+      "name": "Rudi Hartanto",
+      "username": "rudihart",
+      "email": "rudihartanto@gmail.com",
+      "phone": "089012345678",
+      "age": 33,
+      "gender": "male",
+      "address": "Jl. Cipaganti No. 1234, Bandung",
+      "points": 10
+    },
+    {
+      "id": 20,
+      "name": "Diana Fitria",
+      "username": "dianafit",
+      "email": "dianafitria@yahoo.com",
+      "phone": "080123456789",
+      "age": 27,
+      "gender": "female",
+      "address": "Jl. Cikapayang No. 234, Bandung",
+      "points": 10
+    }
+  ],
+  "referral_codes": [
+    {
+      "code": "s7p9ui",
+      "user_id": 2,
+      "id": 1
+    },
+    {
+      "code": "uz8ze",
+      "user_id": 2,
+      "id": 2
+    },
+    {
+      "code": "xpy56",
+      "user_id": 1,
+      "id": 3
+    },
+    {
+      "code": "rc3ae",
+      "user_id": 1,
+      "id": 4
+    },
+    {
+      "code": "3utq2h",
+      "user_id": 2,
+      "id": 5
+    },
+    {
+      "code": "312ny",
+      "user_id": 2,
+      "id": 6
+    },
+    {
+      "code": "q0g1eh",
+      "user_id": 1,
+      "id": 7
+    },
+    {
+      "code": "095xh",
+      "user_id": 1,
+      "id": 8
+    },
+    {
+      "code": "53h9j",
+      "user_id": 2,
+      "id": 9
+    },
+    {
+      "code": "gwydyg",
+      "user_id": 2,
+      "id": 10
+    },
+    {
+      "code": "vycrr",
+      "user_id": 2,
+      "id": 11
+    },
+    {
+      "code": "9hsa0i",
+      "user_id": 2,
+      "id": 12
+    },
+    {
+      "code": "k8yh",
+      "user_id": 2,
+      "id": 13
+    },
+    {
+      "code": "o1gof",
+      "user_id": 2,
+      "id": 14
+    },
+    {
+      "code": "3ftfz",
+      "user_id": 2,
+      "id": 15
+    },
+    {
+      "code": "iuvcu",
+      "user_id": 2,
+      "id": 16
+    },
+    {
+      "code": "zefom",
+      "user_id": 2,
+      "id": 17
+    },
+    {
+      "code": "nr8y7",
+      "user_id": 2,
+      "id": 18
+    },
+    {
+      "code": "rbj6z",
+      "user_id": 2,
+      "id": 19
+    },
+    {
+      "code": "swjrs",
+      "user_id": 2,
+      "id": 20
+    },
+    {
+      "code": "2s8nt",
+      "user_id": 2,
+      "id": 21
+    },
+    {
+      "code": "l7kwy",
+      "user_id": 2,
+      "id": 22
+    },
+    {
+      "code": "f8bnp",
+      "user_id": 2,
+      "id": 23
+    },
+    {
+      "code": "9mo2jl",
+      "user_id": 2,
+      "id": 24
+    },
+    {
+      "code": "9pvmf",
+      "user_id": 2,
+      "id": 25
+    },
+    {
+      "code": "y8nvk",
+      "user_id": 2,
+      "id": 26
+    },
+    {
+      "code": "n59li",
+      "user_id": 2,
+      "id": 27
+    },
+    {
+      "code": "q8m13k",
+      "user_id": 2,
+      "id": 28
+    },
+    {
+      "code": "puy4t",
+      "user_id": 2,
+      "id": 29
+    },
+    {
+      "code": "mmg83",
+      "user_id": 2,
+      "id": 30
+    },
+    {
+      "code": "ri3l7",
+      "user_id": 2,
+      "id": 31
+    },
+    {
+      "code": "ul71si",
+      "user_id": 1,
+      "id": 32
+    },
+    {
+      "code": "dhds9i",
+      "user_id": 1,
+      "id": 33
+    },
+    {
+      "code": "l3sqe",
+      "user_id": 1,
+      "id": 34
+    },
+    {
+      "code": "uy67q",
+      "user_id": 1,
+      "id": 35
+    },
+    {
+      "code": "ru0cy",
+      "user_id": 1,
+      "id": 36
+    },
+    {
+      "code": "d8r5k",
+      "user_id": 1,
+      "id": 37
+    },
+    {
+      "code": "rrurl",
+      "user_id": 1,
+      "id": 38
+    },
+    {
+      "code": "7tyctj",
+      "user_id": 1,
+      "id": 39
+    },
+    {
+      "code": "2wo9",
+      "user_id": 1,
+      "id": 40
+    },
+    {
+      "code": "1ttng",
+      "user_id": 1,
+      "id": 41
+    },
+    {
+      "code": "sdrj3",
+      "user_id": 1,
+      "id": 42
+    },
+    {
+      "code": "gjbhyk",
+      "user_id": 1,
+      "id": 43
+    },
+    {
+      "code": "fk2oh",
+      "user_id": 1,
+      "id": 44
+    },
+    {
+      "code": "hl9n7",
+      "user_id": 1,
+      "id": 45
+    },
+    {
+      "code": "4npn8",
+      "user_id": 1,
+      "id": 46
+    },
+    {
+      "code": "3ncxd",
+      "user_id": 1,
+      "id": 47
+    },
+    {
+      "code": "lchpm",
+      "user_id": 1,
+      "id": 48
+    },
+    {
+      "code": "wkhy0h",
+      "user_id": 1,
+      "id": 49
+    },
+    {
+      "code": "lipja",
+      "user_id": 1,
+      "id": 50
+    },
+    {
+      "code": "h5j8a",
+      "user_id": 1,
+      "id": 51
+    },
+    {
+      "code": "32baf",
+      "user_id": 14,
+      "id": 52
+    },
+    {
+      "code": "lcdzf",
+      "user_id": 14,
+      "id": 53
+    },
+    {
+      "code": "rngkk",
+      "user_id": 14,
+      "id": 54
+    },
+    {
+      "code": "zhcpt",
+      "user_id": 14,
+      "id": 55
+    },
+    {
+      "code": "4ca0uk",
+      "user_id": 14,
+      "id": 56
+    },
+    {
+      "code": "fq8d0h",
+      "user_id": 14,
+      "id": 57
+    },
+    {
+      "code": "q650nh",
+      "user_id": 14,
+      "id": 58
+    },
+    {
+      "code": "6bpjz",
+      "user_id": 14,
+      "id": 59
+    },
+    {
+      "code": "x25x7",
+      "user_id": 14,
+      "id": 60
+    },
+    {
+      "code": "g6nyy",
+      "user_id": 14,
+      "id": 61
+    },
+    {
+      "code": "vx8wm",
+      "user_id": 14,
+      "id": 62
+    },
+    {
+      "code": "gbnsy",
+      "user_id": 14,
+      "id": 63
+    },
+    {
+      "code": "6d8cm",
+      "user_id": 14,
+      "id": 64
+    },
+    {
+      "code": "b271a",
+      "user_id": 14,
+      "id": 65
+    },
+    {
+      "code": "hok2z",
+      "user_id": 14,
+      "id": 66
+    },
+    {
+      "code": "5b6ry",
+      "user_id": 14,
+      "id": 67
+    },
+    {
+      "code": "4e6brf",
+      "user_id": 7,
+      "id": 68
+    },
+    {
+      "code": "5e0dk",
+      "user_id": 7,
+      "id": 69
+    },
+    {
+      "code": "420ir",
+      "user_id": 7,
+      "id": 70
+    },
+    {
+      "code": "q3d48",
+      "user_id": 7,
+      "id": 71
+    },
+    {
+      "code": "5mwr",
+      "user_id": 1,
+      "id": 72
+    },
+    {
+      "code": "b9foj",
+      "user_id": 1,
+      "id": 73
+    },
+    {
+      "code": "ujl84",
+      "user_id": 1,
+      "id": 74
+    },
+    {
+      "code": "1sszii",
+      "user_id": 1,
+      "id": 75
+    },
+    {
+      "code": "e4d9v",
+      "user_id": 1,
+      "id": 76
+    },
+    {
+      "code": "kykiu",
+      "user_id": 1,
+      "id": 77
+    },
+    {
+      "code": "gg21z",
+      "user_id": 1,
+      "id": 78
+    },
+    {
+      "code": "s50jj",
+      "user_id": 1,
+      "id": 79
+    }
+  ],
+  "coupons": [
+    {
+      "code": "FLASHSALE9.9",
+      "discount": 20
+    },
+    {
+      "code": "NEWUSER",
+      "discount": 15
+    },
+    {
+      "code": "SEPTEMBERCERIA",
+      "discount": 10
+    }
+  ],
+  "organizer": [
+    {
+      "id": 1,
+      "name": "BlackRock",
+      "email": "admin@blackrock.com",
+      "address": "Jl. Ahmad Yani No. 456, Bandung",
+      "contact": "080987654321",
+      "image": "https://pbs.twimg.com/profile_images/1675852182183190528/EubQyAvV_400x400.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Protech-id",
+      "email": "admin@protech-id.com",
+      "address": "Jl. Gajah Mada No. 789, Surabaya",
+      "contact": "081234567890",
+      "image": "https://lh3.googleusercontent.com/p/AF1QipNgoSNijhvUFb2Ksje7cOCA_jQTitdz2tsXGyhU=s1280-p-no-v1"
+    }
+  ]
+}
