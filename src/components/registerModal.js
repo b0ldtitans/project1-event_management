@@ -141,7 +141,7 @@ export default function Register() {
                 name="referral_code"
                 id="referral_code"
                 class="bg-orange-50 border border-orange-300 text-orange-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-orange-700 dark:border-orange-600 dark:placeholder-orange-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
-                placeholder="12345"
+                placeholder="s7p9ui"
               />
             </div>
 
