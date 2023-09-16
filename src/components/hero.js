@@ -32,33 +32,45 @@ export default function Hero() {
 
   return (
     <div
-      className="h-[100vh] text-white bg-cover bg-top"
+      className="h-[100vh] text-black bg-cover bg-top"
       style={{
         backgroundImage:
-          "url(https://seatgeek.com/_next/image?url=https%3A%2F%2Fseatgeek.com%2Fimages%2Fimage_uploads%2Fhomepage%2Fhomepage-medium.jpg&w=3840&q=75)",
+          "url(https://images.unsplash.com/photo-1556340346-5e30da977c4d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80)",
       }}
     >
       <header className="p-4 md:px-8">
-        <nav className="flex justify-between">
+        <nav className="flex justify-between border-b text-white border-orange-600 pb-2">
           <ul className="flex gap-5">
-            <Link to="/"><li>Home</li></Link>
-            <Link to="/kompetisi"><li className="hidden md:block">Kompetisi</li></Link>
-            <Link to="/music"><li className="hidden md:block">Music</li></Link>
-            <Link to="/workshop"><li className="hidden md:block">Workshop</li></Link>
-            <Link to="/others"><li className="hidden md:block">Others</li></Link>
+            <Link to="/">
+              <li>Home</li>
+            </Link>
+            <Link to="/kompetisi">
+              <li className="hidden md:block">Competition</li>
+            </Link>
+            <Link to="/music">
+              <li className="hidden md:block">Music</li>
+            </Link>
+            <Link to="/workshop">
+              <li className="hidden md:block">Workshop</li>
+            </Link>
+            <Link to="/others">
+              <li className="hidden md:block">Others</li>
+            </Link>
           </ul>
           <ul className="flex gap-5">
             {organizer.name ? (
-            <Link to="/organizer/dashboard">
-              <li className="hidden md:block" href="/organizer/dashboard">Dashboard</li>
-            </Link> 
-            ) : ( 
-                <>
-                  <li className="hidden md:block">USD</li>
-                  <li className="hidden md:block">Sell</li>
-                  <li className="hidden md:block">Points: {user.points}</li>
-                </>
-              )}
+              <Link to="/organizer/dashboard">
+                <li className="hidden md:block" href="/organizer/dashboard">
+                  Dashboard
+                </li>
+              </Link>
+            ) : (
+              <>
+                <li className="hidden md:block">USD</li>
+                <li className="hidden md:block">Sell</li>
+                <li className="hidden md:block">Points: {user.points}</li>
+              </>
+            )}
             <Link to="/login">
               <li className="hidden md:block">
                 {user.name || organizer.name ? (
@@ -76,11 +88,9 @@ export default function Hero() {
           <h1 className="text-5xl md:text-6xl">
             {user.name ? `Welcome, ${user.name}!` : "Welcome!"}
           </h1>
-          <h2 className="text-3xl md:text-4xl">
-            Your next best night ever is waiting
-          </h2>
-          <h2 className="text-3xl md:text-4xl">And we have the tickets</h2>
-            <SearchBar />
+          <h2 className="text-3xl md:text-4xl">Unforgettable Nights Await</h2>
+          <h2 className="text-3xl md:text-4xl">Grab Your Tickets Today</h2>
+          <SearchBar />
         </div>
       </section>
     </div>
