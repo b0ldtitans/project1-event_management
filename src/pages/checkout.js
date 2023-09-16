@@ -36,10 +36,9 @@ function Checkout() {
     );
   }
 
-  // Render the actual content when isLoading is false
   return (
     <>
-      <Navbar title={"Checkout Tiket"} />
+      <Navbar title={"Checkout"} />
       <div className="lg:flex mb-16 lg:flex-row lg:gap-6 lg:justify-evenly hover:shadow-2xl">
         {/* Mobile view (flex-col) */}
         <div className="flex flex-col lg:hidden">

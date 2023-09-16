@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import Event from "../components/event"
+import Event from "../components/event";
 import ModalComponent from "../components/modal";
 import Register from "../components/registerModal";
 import Referral from "../components/referralModal";
@@ -12,23 +12,25 @@ export default function Music() {
   const modalContent = useSelector((state) => state.modal.content);
 
   useEffect(() => {
-    document.title = "Music";
+    document.title = "The Ticket Registry - Music";
   }, []);
 
   return (
     <div>
-      <Navbar title={"Music"}/>
-    <section className="p-4 md:p-20 gap-5">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
-        {events.filter(event => event.category === 'music').map((event) => (
-            <Event key={event.id} eventData={event} />
-        ))}
-      <ModalComponent>
-        {modalContent === "register" ? <Register /> : <Referral />}
-      </ModalComponent>
-      </div>
-    </section>
-    <Footer />
+      <Navbar title={"Music"} />
+      <section className="p-4 md:p-20 gap-5">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+          {events
+            .filter((event) => event.category === "music")
+            .map((event) => (
+              <Event key={event.id} eventData={event} />
+            ))}
+          <ModalComponent>
+            {modalContent === "register" ? <Register /> : <Referral />}
+          </ModalComponent>
+        </div>
+      </section>
+      <Footer />
     </div>
   );
 }

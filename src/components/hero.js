@@ -39,10 +39,13 @@ export default function Hero() {
       }}
     >
       <header className="p-4 md:px-8">
-        <nav className="flex justify-between border-b text-white border-orange-600 pb-2">
+        <nav className="flex justify-between  text-white pb-2">
           <ul className="flex gap-5">
-            <Link to="/">
-              <li>Home</li>
+            <Link
+              to="/"
+              className="overflow-ellipsis whitespace-normal text-orange-600 font-secondary"
+            >
+              <li>The Ticket Registry</li>
             </Link>
             <Link to="/kompetisi">
               <li className="hidden md:block">Competition</li>

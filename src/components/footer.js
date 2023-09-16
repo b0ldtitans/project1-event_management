@@ -22,11 +22,11 @@ export default function Footer() {
 
   function handleClick(user) {
     if (user && user.name) {
-      alert('You cannot access this page.');
-      navigate("/");  // Prevent navigation
+      alert("You cannot access this page.");
+      navigate("/"); // Prevent navigation
     }
-    return true;  // Allow navigation
-  } 
+    return true; // Allow navigation
+  }
 
   return (
     <footer className="bg-white dark:bg-gray-900">
@@ -53,10 +53,17 @@ export default function Footer() {
                 </a>
               </li>
               <li className="mb-4">
-                <a 
-                href={organizer && organizer.name ? "/organizer/dashboard" : (user && user.name ? "/" : "/organizer/login")} 
-                className="hover:underline"
-                onClick={() => handleClick(user)}>
+                <a
+                  href={
+                    organizer && organizer.name
+                      ? "/organizer/dashboard"
+                      : user && user.name
+                      ? "/"
+                      : "/organizer/login"
+                  }
+                  className="hover:underline"
+                  onClick={() => handleClick(user)}
+                >
                   Organizer Dashboard
                 </a>
               </li>
@@ -114,8 +121,11 @@ export default function Footer() {
         </div>
         <div className="px-4 py-6 bg-gray-100 dark:bg-gray-900 md:flex md:items-center md:justify-between">
           <span className="text-sm text-gray-500 dark:text-gray-300 sm:text-center">
-            © 2023 <a href="https://purwadhika.com/">SeatGeek</a>. All Rights
-            Reserved.
+            © 2023{" "}
+            <a href="https://purwadhika.com/">
+              Purwadhika Digital Technology School
+            </a>
+            . All Rights Reserved.
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center md:mt-0">
             <a
