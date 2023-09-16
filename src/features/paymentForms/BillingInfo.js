@@ -7,7 +7,9 @@ import Selector from "./Selector";
 
 export default function BillingInfo() {
   const [acceptedTerms, setAcceptedTerms] = useState(false);
-  let countryData = Country.getAllCountries();
+  const [billingInfoValid, setBillingInfoValid] = useState(false);
+
+  const [countryData, setCountryData] = useState(Country.getAllCountries());
   const indonesiaCountry = countryData.find(
     (country) => country.name === "Indonesia"
   );
@@ -39,12 +41,9 @@ export default function BillingInfo() {
   }, [cityData]);
 
   const billingInfoSchema = Yup.object().shape({
-    firstName: Yup.string()
+    fullName: Yup.string()
       .required("Name is required")
       .min(2, "Tuliskan Nama Lenkap Anda"),
-    lastName: Yup.string()
-      .required("Last name is required")
-      .min(2, "Please enter a valid"),
     email: Yup.string()
       .required("Email is required")
       .email("Tuliskan E-Mail Valid"),
@@ -54,37 +53,24 @@ export default function BillingInfo() {
     postalCode: Yup.string()
       .required("Postal code is required")
       .matches(/^\d{5}$/, "Tuliskan Kode Pos Yang Valid"),
-  });
-
-  const formik = Formik({
-    initialValues: {
-      firstName: "",
-      lastName: "",
-      email: "",
-      address: "",
-      city: "",
-      state: "",
-      postalCode: "",
-      country: "",
-    },
-    validationSchema: billingInfoSchema,
-    onSubmit: (values) => {
-      console.log("Form submitted with values:", values);
-    },
+    tnc: Yup.boolean().oneOf(
+      [true],
+      "You must accept the Terms and Conditions"
+    ),
   });
 
   return (
     <Formik
       initialValues={{
-        firstName: "",
-        lastName: "",
+        fullName: "",
         email: "",
         address: "",
         postalCode: "",
+        tnc: false,
       }}
       validationSchema={billingInfoSchema}
       onSubmit={(values) => {
-        console.log("Form submitted with values:", values);
+        setBillingInfoValid(true);
       }}
     >
       {(formik) => (
@@ -95,18 +81,18 @@ export default function BillingInfo() {
           </div>
           <div className="flex flex-col mt-5 mx-2 border border-1 p-5 rounded-xl">
             <div className="flex-col flex">
-              <label htmlFor="firstName">Nama Lengkap</label>
+              <label htmlFor="fullName">Nama Lengkap</label>
               <input
                 className="shadow-md border border-gray-300 rounded-md p-2 w-full"
                 type="text"
-                id="firstName"
-                name="firstName"
+                id="fullName"
+                name="fullName"
                 onChange={formik.handleChange}
                 onBlur={formik.handleBlur}
-                value={formik.values.firstName}
+                value={formik.values.fullName}
               />
-              {formik.touched.firstName && formik.errors.firstName ? (
-                <div className="error">{formik.errors.firstName}</div>
+              {formik.touched.fullName && formik.errors.fullName ? (
+                <div className="error">{formik.errors.fullName}</div>
               ) : null}
             </div>
             <div className="flex-col flex">
@@ -143,8 +129,6 @@ export default function BillingInfo() {
             </div>
             {state && (
               <div className="">
-                {" "}
-                {/* Set a higher z-index for the province selector */}
                 <p className="">Provinsi :</p>
                 <Selector
                   className="border border-gray-300 rounded-md p-2 w-full"
@@ -156,8 +140,6 @@ export default function BillingInfo() {
             )}
             {city && (
               <div className="">
-                {" "}
-                {/* Set a lower z-index for the city selector */}
                 <p className="">Kota :</p>
                 <Selector
                   className="border border-gray-300 rounded-md p-2 w-full"
@@ -167,7 +149,6 @@ export default function BillingInfo() {
                 />
               </div>
             )}
-
             <div className="flex-col flex">
               <label htmlFor="postalCode">Kode Pos</label>
               <input
@@ -191,7 +172,18 @@ export default function BillingInfo() {
                   name="tnc"
                   id="tnc"
                   checked={acceptedTerms}
-                  onChange={() => setAcceptedTerms(!acceptedTerms)}
+                  onChange={() => {
+                    formik.handleChange("tnc");
+                    setAcceptedTerms(!acceptedTerms);
+                  }}
+                  disabled={
+                    !formik.values.fullName ||
+                    !formik.values.email ||
+                    !formik.values.address ||
+                    !formik.values.postalCode ||
+                    !state ||
+                    !city
+                  }
                   required
                 />
                 <label className="text-sm" htmlFor="tnc">
@@ -214,7 +206,6 @@ export default function BillingInfo() {
                 </label>
               </div>
             </div>
-
             {acceptedTerms && <PaymentMethodSelector />}
           </div>
         </Form>

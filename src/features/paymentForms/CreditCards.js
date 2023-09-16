@@ -8,6 +8,11 @@ const CreditCardForm = () => {
   const [error, setError] = useState("");
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  const [isCardNumberComplete, setIsCardNumberComplete] = useState(false);
+  const [isCardNameComplete, setIsCardNameComplete] = useState(false);
+  const [isCardExpiryComplete, setIsCardExpiryComplete] = useState(false);
+  const [isCardCvvComplete, setIsCardCvvComplete] = useState(false);
+
   const toggleModal = () => {
     setIsModalOpen(!isModalOpen);
   };
@@ -19,8 +24,10 @@ const CreditCardForm = () => {
     detectCardType(formattedNumber);
     if (/[^0-9 ]/.test(formattedNumber)) {
       setError("Card number should only contain numbers");
+      setIsCardNumberComplete(false);
     } else {
       setError("");
+      setIsCardNumberComplete(true);
     }
   };
 
@@ -45,6 +52,15 @@ const CreditCardForm = () => {
     } else {
       setCardType("");
     }
+  };
+
+  const handleCardExpiryChange = (event) => {
+    const value = event.target.value;
+    const formattedValue = value
+      .replace(/\D/g, "")
+      .replace(/^(0[1-9]|1[0-2])(\d{2})$/, "$1 / $2");
+    event.target.value = formattedValue;
+    setIsCardExpiryComplete(formattedValue.length === 7);
   };
 
   return (
@@ -83,6 +99,7 @@ const CreditCardForm = () => {
           id="cardName"
           placeholder="Enter The Name on Card"
           className="border border-gray-300 rounded-md p-2 w-full"
+          onChange={() => setIsCardNameComplete(true)}
         />
       </div>
       {/*Expriation Date*/}
@@ -99,15 +116,7 @@ const CreditCardForm = () => {
             pattern="(0[1-9]|1[0-2]) \/ \d{2}"
             maxLength="7"
             className="border border-gray-300 rounded-md p-2 w-full"
-            onChange={(e) => {
-              const value = e.target.value;
-              const month = value.slice(0, 2);
-              if (parseInt(month) > 12) {
-                e.target.value = "12 / ";
-              } else {
-                e.target.value = value;
-              }
-            }}
+            onChange={handleCardExpiryChange}
           />
         </div>
       </div>
@@ -125,14 +134,22 @@ const CreditCardForm = () => {
             pattern="\d{3,4}"
             maxLength="3"
             className="border border-gray-300 rounded-md p-2 w-full"
+            onChange={() => setIsCardCvvComplete(true)}
           />
         </div>
       </div>
       <div className="items-center flex justify-start ml-1 mt-3">
         <button
-          className="text-white font-bold bg-orange-600 border-1 rounded-lg max-w-full flex items-center  justify-center p-2 m-2 "
-          type="submit"
+          className="text-white font-bold bg-orange-600 border-1 rounded-lg max-w-full flex items-center  justify-center p-2 m-2
+          disabled:opacity-50 disabled:cursor-not-allowed"
+          type="button"
           onClick={toggleModal}
+          disabled={
+            !isCardNumberComplete ||
+            !isCardNameComplete ||
+            !isCardExpiryComplete ||
+            !isCardCvvComplete
+          }
         >
           Submit
         </button>
