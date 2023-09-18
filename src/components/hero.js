@@ -43,7 +43,7 @@ export default function Hero() {
           <ul className="flex gap-5">
             <Link
               to="/"
-              className="overflow-ellipsis whitespace-normal text-orange-600 font-secondary"
+              className="overflow-ellipsis whitespace-normal text-lg font-bold text-orange-600 font-secondary"
             >
               <li>The Ticket Registry</li>
             </Link>
@@ -75,7 +75,7 @@ export default function Hero() {
               </>
             )}
             <Link to="/login">
-              <li className="hidden md:block">
+              <li className="">
                 {user.name || organizer.name ? (
                   <span onClick={() => logout()}>Logout</span>
                 ) : (
